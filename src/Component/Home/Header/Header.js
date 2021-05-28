@@ -19,7 +19,7 @@ const Header = () => {
                             
                         </div>
                     </Col>
-                    <Col md={6}>
+                    <Col className="hero_img" md={6}>
                         <Image src={HeroImage} fluid  />
                     </Col>
                 </Row>

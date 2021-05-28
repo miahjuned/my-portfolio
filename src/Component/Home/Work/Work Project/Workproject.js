@@ -11,7 +11,7 @@ const Workproject = ({project}) => {
                 </div>
             </Col>
             <Col className="" md={5}>
-                <div className="project_info px-4 py-2">
+                <div className="project_info px-4 py-2 ">
                     <p className="small-text-band">{title}</p>
                     <p>{descripstion}</p>
 

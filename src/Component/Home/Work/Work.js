@@ -33,7 +33,7 @@ const All_work_Project = [
 ]
 const Work = () => {
     return (
-        <div className="Work_Area">
+        <div className="Work_Area pt-5">
             {/* <div className="center-under-line"></div> */}
             <Container className="">
                 <Row className="">

@@ -3,6 +3,10 @@
     background-color: #f1f7ff;
     position: relative;
 }
+.hero_img{
+    position: absolute;
+    z-index: 1;
+}
 .Header_Area::before{
     position: absolute;
     content: "";

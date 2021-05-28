@@ -39,14 +39,14 @@ const All_Blog_Project = [
 
 const Blog = () => {
     return (
-        <div className="Work_Area">
+        <div className="Work_Area mt-5 pt-5">
             {/* <div className="center-under-line"></div> */}
             <Container className="">
                 <Row className="">
-                    <Col md={3} className="work_Row">
-                        <h2><span className="small-text-band">Some of</span> Article</h2>
+                    <Col md={4} className="work_Row">
+                        <h2><span className="small-text-band">I also write </span> my feelings</h2>
                     </Col>
-                    <Col md={7} className="work_Row">
+                    <Col md={8} className="work_Row pb-5">
                         <div className="text-center">
                             <div className="center-line" ></div>
                             <a href="#" className="btn-band" target="_blank" rel="noopener noreferrer">All Article</a>
