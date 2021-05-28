@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from '../Blog/Blog';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import NavbarArea from '../Navbar/Navbar';
@@ -10,6 +11,7 @@ const Home = () => {
             <NavbarArea></NavbarArea>
             <Header></Header>
             <Work></Work>
+            <Blog></Blog>
             <Footer></Footer>
         </div>
     );

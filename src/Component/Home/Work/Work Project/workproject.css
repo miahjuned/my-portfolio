@@ -1,0 +1,19 @@
+.project{
+    padding: 10px 5px;
+}
+.project_image img{
+    position: relative ;
+    display: block;
+    border-radius: 5px;
+} 
+
+.project_info{
+    background-color: #f1f7ff;
+    /* height: 100%; */
+    margin-left: -64px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.project_info:hover{
+    background-color: #14a80094;
+}
