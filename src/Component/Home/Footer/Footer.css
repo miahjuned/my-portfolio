@@ -1,0 +1,8 @@
+.footer_Area{
+    height: 400px;
+    /* background-color: red; */
+    background-image: url("../../../Images/footer-bg.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-color: #14a80041;
+}

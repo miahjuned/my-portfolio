@@ -1,0 +1,26 @@
+.Work_Area{
+    height: 500px;
+    background-color: rgba(211, 211, 211, 0.178);
+    position: relative;
+}
+.work_Row{
+    margin: 20px 0px;
+}
+.center-line{
+    position: absolute;
+    height: 2px;
+    width: 40%;
+    top: 12px;
+    left: 2.5%;
+    background-color: #14a800;
+}
+.center-under-line{
+    position: absolute;
+    height: 3px;
+    width: 10%;
+    top: 45px;
+    left: 12%;
+    border-top-right-radius:50%;
+    border-bottom-left-radius:50%;
+    background-color: #14a80070;
+}

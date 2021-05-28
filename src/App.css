@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* ||==========================================================||
+                    || All Button CSS|| 
+    ||=========================================================||*/
+.btn-band{
+    background-color: #14A800;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #14A800;
+    text-align: center;
+}
+.btn-band:hover{
+    background-color: #14a8000c;
+    color: #14A800;
+    text-decoration: none;    
+    border: 1px solid #14A800;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.btn-band-outline{
+    background-color: #14a80005;
+    color: #14A800;
+    padding: 7px 30px;
+    border-radius: 30px;
+    border: 1px solid #14A800;
+    text-decoration: none;
+}
+.btn-band-outline:hover{
+    background-color: #14A800;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #14A800;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ||==========================================================||
+                    || All Text CSS|| 
+    ||=========================================================||*/
+.text-Navbar{
+    color: #14A800;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-band{
+    color: #14A800;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: 'Roboto Slab', serif;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.small-text-band{
+    color: #14A800;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
 }

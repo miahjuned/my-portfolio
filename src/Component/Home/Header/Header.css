@@ -1,0 +1,33 @@
+.Header_Area{  
+    height: 593px;
+    background-color: #f1f7ff;
+    position: relative;
+}
+.Header_Area::before{
+    position: absolute;
+    content: "";
+    height: 300px;
+    width: 400px;
+    background-image: url("../../../Images/illustration-light.svg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    bottom: 0;
+}
+.Header_Area::after{
+    position: absolute;
+    content: "";
+    height: 250px;
+    width: 300px;
+    background-image: url("../../../Images/illustration-connect-ligh-right_sidet.svg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    top: 0;
+    right: 0;
+}
+
+
+.Header_Row{
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
