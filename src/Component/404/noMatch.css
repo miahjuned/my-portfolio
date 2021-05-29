@@ -1,0 +1,15 @@
+.noMatch{
+    height: 180px;
+    background-color: #9e9e9e02;
+}
+.noMatch h3{
+   color: grey;
+   font-weight: 600;
+   margin-top: 25px;
+}
+.noMatch h2{
+   color: rgba(253, 0, 0, 0.993);
+   font-weight: 800;
+   margin: 35px auto;
+   padding: 35px auto;
+}

@@ -16,29 +16,38 @@ const All_Blog_Project = [
         title: "First test project",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
         image: firstIMG,
-        project_link: "https://www.upwork.com/",
-        github_link:"https://www.github.com/"
+        topic: "React Router",
+        topic1: "React  JS",
+        topic2: "Mongo DB",
+        topic3: "Node JS",
     },
     {
         id: 2,
         title: "secound test project",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
         image: secoundImg,
-        project_link: "https://www.facebook.com/",
-        github_link:"https://www.google.com/"
+        topic: "Express Js",
+        topic1: "React  JS",
+        topic2: "Mongo DB",
+        topic3: "Node JS",
     },
     {
         id: 3,
         title: "Thrired test project",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
         image: ThriredImg,
-        project_link: "https://www.facebook.com/",
-        github_link:"https://www.google.com/"
+        topic: "HTML5",
+        topic1: "CSS",
+        topic2: "JavaScript",
+        topic3: "React Router",
     },
 ]
 
 
 const Blog = () => {
+
+    document.title = " Blog Post";
+    
     return (
         <div className="Work_Area mt-5 pt-5">
             {/* <div className="center-under-line"></div> */}
@@ -50,7 +59,7 @@ const Blog = () => {
                     </Col>
                     <Col xs={12} sm={8} md={6} lg={6} className="work_Row pb-5">
                         <div className="text-center">
-                            <Link to="/blog" className="btn-band" target="_blank" rel="noopener noreferrer">All Article</Link>
+                            <Link to="/blog" className="btn-band" >All Article</Link>
                             <div className="center-line" ></div>
                         </div>
                     </Col>

@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Work from '../Work/Work';
 import './home.css';
 const Home = () => {
+    document.title = "Juned portfolio website";
     return (
         <div>
             <Header></Header>

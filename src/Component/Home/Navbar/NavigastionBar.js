@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavbarBrand, NavLink } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -15,7 +15,7 @@ const NavbarArea = () => {
               <Link to="/home">Home</Link>
               <Link to="/about">About</Link>
               <Link to="/work">Work</Link>
-              <Link to="/buildblog">Blog</Link>
+              <Link to="/blog">Blog</Link>
               <Link to="/contract">Contract</Link>
             </Nav>
           </NavbarCollapse>

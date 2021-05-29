@@ -9,30 +9,43 @@ import { Link } from 'react-router-dom';
 const All_work_Project = [
     {
         id: 1,
-        title: "First test project",
+        title: "Simple javaScript and HTML project",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
         image: firstIMG,
         project_link: "https://www.upwork.com/",
+        topic: "HTML5",
+        topic1: "CSS",
+        topic2: "JavaScript",
+        topic3: "React Router",
         github_link:"https://www.github.com/"
     },
     {
         id: 2,
-        title: "secound test project",
+        title: "Football Club Zone",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
         image: secoundImg,
         project_link: "https://www.facebook.com/",
+        topic: "Mongo DB",
+        topic1: "Express js",
+        topic2: "Node js",
+        topic3: "React Router",
         github_link:"https://www.google.com/"
     },
     {
         id: 3,
-        title: "Thrired test project",
+        title: "Kaan Fitness Club",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
         image: ThriredImg,
         project_link: "https://www.facebook.com/",
+        topic: "Metarial UI",
+        topic1: "Node js",
+        topic2: "React Router",
+        topic3: "Express",
         github_link:"https://www.google.com/"
     },
 ]
 const Work = () => {
+    document.title ="Work project Area";
     return (
         <div className="Work_Area pt-5">
             {/* <div className="center-under-line"></div> */}

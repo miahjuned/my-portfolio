@@ -6,7 +6,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 const Workproject = ({project}) => {
-    const {title, descripstion, image, project_link, github_link} = project;
+    const {title, descripstion, image, project_link, github_link, topic1, topic, topic2, topic3} = project;
 
 
     return (
@@ -24,8 +24,10 @@ const Workproject = ({project}) => {
                         <p className="small-text-band">{title}</p>
                         <p>{descripstion}</p>
 
-                        <a href={project_link} className="btn-band-outline" target="_blank" rel="noreferrer">Live</a>
-                        <a href={github_link} className="btn-band-outline" target="_blank" rel="noreferrer">Github</a>
+                        <small className="topic"><strong>{topic}</strong></small>
+                        <small className="topic"><strong>{topic1}</strong></small>
+                        <small className="topic"><strong>{topic2}</strong></small>
+                        <small className="topic"><strong>{topic3}</strong></small>
 
                         <hr />
                         <a href={project_link} className="small-text-band mr-3" target="_blank" rel="noreferrer">
