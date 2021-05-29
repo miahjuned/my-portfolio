@@ -12,6 +12,7 @@
     border: 1px solid #14A800;
     text-align: center;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 .btn-band:hover{
     background-color: #14a8000c;
@@ -19,6 +20,7 @@
     text-decoration: none;    
     border: 1px solid #14A800;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 
@@ -30,6 +32,7 @@
     border: 1px solid #14A800;
     text-decoration: none;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 .btn-band-outline:hover{
     background-color: #14A800;
@@ -38,6 +41,7 @@
     border: 1px solid #14A800;
     text-align: center;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /* ||==========================================================||
@@ -59,4 +63,8 @@
     color: #14A800;
     font-size: 2rem;
     font-family: 'Roboto Slab', serif;
+}
+.small-text-band:hover{
+    color: #14a800;
+
 }

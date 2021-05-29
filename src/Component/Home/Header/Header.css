@@ -1,12 +1,12 @@
 .Header_Area{  
-    height: 593px;
+    min-height: 600px;
+    height: 100%;
     background-color: #f1f7ff;
     position: relative;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
-.hero_img{
-    position: absolute;
-    z-index: 1;
-}
+
 .Header_Area::before{
     position: absolute;
     content: "";
@@ -31,7 +31,15 @@
 
 
 .Header_Row{
-    height: 500px;
+    /* height: 500px; */
     align-items: center;
     justify-content: center;
+}
+.header_content{
+    margin: 50px auto;
+    z-index: 1;
+}
+.hero_img{
+    position: relative;
+    z-index: 1;
 }

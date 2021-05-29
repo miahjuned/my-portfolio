@@ -3,16 +3,24 @@
     background-color: rgba(211, 211, 211, 0.178);
     position: relative;
 }
-.work_Row{
-    margin: 20px 0px;
+
+.work_Row .text-center a{
+    margin-left: 250px;
+    line-height: 40px;
+}
+.work_Row .text-center a:hover{
+    background-color: #14a800;
+    color: #fff;
+    box-shadow: 0px 8px 3px 0px rgba(0,0,0,0.1);
 }
 .center-line{
-    position: absolute;
+    position: relative;
     height: 2px;
-    width: 40%;
-    top: 12px;
-    left: 2.5%;
+    width: 100%;
+    left: -140px;
+    top: -18px;
     background-color: #14a800;
+    z-index: -1;
 }
 .center-under-line{
     position: absolute;
