@@ -5,16 +5,29 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import About from './Component/About/About/About';
+import NavigastionBar from './Component/Home/Navbar/NavigastionBar';
+import FooterBar from './Component/Home/Footer/Footer';
 
 function App() {
   return (
-  <Router>
+    <Router>
+      <NavigastionBar/>
       <Switch>
-      <Route exact path="/">
-        <Home></Home>
-      </Route>
-    </Switch>
-  </Router>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+
+        <Route path="/home">
+          <Home/>
+        </Route>
+
+        <Route path="/about">
+          <About/>
+        </Route>
+      </Switch>
+      <FooterBar/>
+    </Router>
   );
 }
 

@@ -4,13 +4,13 @@ import './workproject.css';
 const Workproject = ({project}) => {
     const {title, descripstion, image, project_link, github_link} = project;
     return (
-        <Row className="">
-            <Col className="project" md={7}>
+        <Row className="mt-4">
+            <Col className="project" xs={12} sm={6} md={6} lg={6}>
                 <div className="project_image">
                     <Image src={image} fluid />
                 </div>
             </Col>
-            <Col className="" md={5}>
+            <Col className="" xs={12} sm={6} md={6} lg={6}>
                 <div className="project_info px-4 py-2 ">
                     <p className="small-text-band">{title}</p>
                     <p>{descripstion}</p>

@@ -43,10 +43,11 @@ const Blog = () => {
             {/* <div className="center-under-line"></div> */}
             <Container className="">
                 <Row className="">
-                    <Col md={4} className="work_Row">
+                    <Col xs={6} sm={6} md={6} lg={6} className="work_Row">
                         <h2><span className="small-text-band">I also write </span> my feelings</h2>
+                        {/* <h2><span className="small-text-band">Some of </span> my feelings</h2> */}
                     </Col>
-                    <Col md={8} className="work_Row pb-5">
+                    <Col xs={6} sm={8} md={6} lg={6} className="work_Row pb-5">
                         <div className="text-center">
                             <div className="center-line" ></div>
                             <a href="#" className="btn-band" target="_blank" rel="noopener noreferrer">All Article</a>

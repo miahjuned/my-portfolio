@@ -2,15 +2,16 @@
     padding: 10px 5px;
 }
 .project_image img{
-    position: relative ;
+    position: absolute ;
     display: block;
     border-radius: 5px;
 } 
 
 .project_info{
+    position: relative;
     background-color: #f1f7ff;
-    margin-left: -64px;
-    margin-top: 20px;
+    /* margin-left: -64px; */
+    margin-top: 200px;
     border-radius: 10px;
 }
 .project_info:hover{

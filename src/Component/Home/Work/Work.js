@@ -37,10 +37,10 @@ const Work = () => {
             {/* <div className="center-under-line"></div> */}
             <Container className="">
                 <Row className="">
-                    <Col md={3} className="work_Row">
+                    <Col xs={6} sm={6} md={6} lg={6} className="work_Row">
                         <h2><span className="small-text-band">Some of</span> my work</h2>
                     </Col>
-                    <Col md={7} className="work_Row">
+                    <Col xs={6} sm={6} md={6} lg={6} className="work_Row">
                         <div className="text-center">
                             <div className="center-line"></div>
                             <a href="#" className="btn-band">All Works</a>

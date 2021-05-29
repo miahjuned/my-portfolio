@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavbarBrand, NavLink } from 'react-bootstrap';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 const NavbarArea = () => {
     return (
@@ -11,8 +12,8 @@ const NavbarArea = () => {
 
           <NavbarCollapse id="basic-navbar-nav" className="justify-content-end">
             <Nav variant="pills" >
-              <NavLink href="#home">Home</NavLink>
-              <NavLink href="#link">About</NavLink>
+              <Link to="/home">Home</Link>
+              <Link to="/about">About</Link>
               <NavLink href="#work">Work</NavLink>
               <NavLink href="#blog">Blog</NavLink>
               <NavLink href="#contract">Contract</NavLink>

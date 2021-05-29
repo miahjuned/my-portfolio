@@ -1,16 +1,16 @@
 import React from 'react';
-import { Card, CardImg, Col, Image, Row } from 'react-bootstrap';
+import { Card, CardImg, Col } from 'react-bootstrap';
 import './BlogPost.css';
 const Workproject = ({blogPost}) => {
     const {title, descripstion, image, project_link, github_link, date} = blogPost;
-    console.log('date', date)
+    document.title = " Blog Post"
     return (
-            <Col xs={1} md={4}>
-                <Card>
-                    <CardImg variant="top" src={image} />
+            <Col xs={12} sm={12} md={6} lg={4}>
+                <Card className="mt-3 blogPost_Card">
+                    <CardImg  variant="top" src={image} />
                     <Card.Body>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Text>
+                    <Card.Title className="small-text-band">{title}</Card.Title>
+                    <Card.Text className="text-secondary">
                         {descripstion}
                     </Card.Text>
                     </Card.Body>
