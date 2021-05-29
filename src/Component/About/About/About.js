@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Education from '../Education/Education';
-import My_Info from '../My_Info/My_Info';
+import MyInfo from '../My_Info/My_Info';
 import Skill from '../Skill/Skill';
 import './About.css';
 
@@ -15,7 +15,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <My_Info></My_Info>
+            <MyInfo></MyInfo>
             <Skill></Skill>
             <Education></Education>
         </Container>

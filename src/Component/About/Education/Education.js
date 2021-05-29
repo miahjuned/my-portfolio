@@ -1,6 +1,6 @@
 import React from 'react';
 import './Education.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 const Education = () => {
     document.title = "About me";

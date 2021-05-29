@@ -11,12 +11,12 @@ const NavbarArea = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <NavbarCollapse id="basic-navbar-nav" className="justify-content-end">
-            <Nav variant="pills" >
+            <Nav className="navLink">
               <Link to="/home">Home</Link>
               <Link to="/about">About</Link>
-              <NavLink href="#work">Work</NavLink>
-              <NavLink href="#blog">Blog</NavLink>
-              <NavLink href="#contract">Contract</NavLink>
+              <Link to="/work">Work</Link>
+              <Link to="/buildblog">Blog</Link>
+              <Link to="/contract">Contract</Link>
             </Nav>
           </NavbarCollapse>
 

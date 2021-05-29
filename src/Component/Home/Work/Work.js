@@ -5,6 +5,7 @@ import './Work.css';
 import firstIMG from "../../../Images/3.jpg";
 import secoundImg from "../../../Images/Screenshot_3.jpg";
 import ThriredImg from "../../../Images/kaanFitnessss.jpg";
+import { Link } from 'react-router-dom';
 const All_work_Project = [
     {
         id: 1,
@@ -43,7 +44,7 @@ const Work = () => {
                     <Col xs={6} sm={6} md={6} lg={6} className="work_Row">
                         <div className="text-center">
                             <div className="center-line"></div>
-                            <a href="#" className="btn-band">All Works</a>
+                            <Link to="/work" className="btn-band" rel="noreferrer"> All Works</Link>
                         </div>
                     </Col>
                 </Row>
@@ -58,22 +59,3 @@ const Work = () => {
 };
 
 export default Work;
-
-
-
-
-
-
-
-
-                    {/* <Col xl={6} md={6} className="bg-primary  ">
-                        <div className="text-center bg-warning">
-                            <h2><span className="small-text-band">Some of</span> my work</h2>
-                        </div>
-                    </Col>
-                    <Col xl={6} md={6} className="text-center bg-dark">
-                        <div className="text-center bg-warning">
-                            <div className="center-line"></div>
-                            <a href="#" className="btn-band-outline">All Works</a>
-                        </div>
-                    </Col> */}

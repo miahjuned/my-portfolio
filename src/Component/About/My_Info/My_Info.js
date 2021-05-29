@@ -1,18 +1,20 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Image, Row } from 'react-bootstrap';
 import './My_Info.css';
 import photo from '../../../Images/juned.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const My_Info = () => {
     return (
         <section className="section-inner my-info">
             <div className="page-header">
                 <Row>
-                    <Col sm={4} md={4} lg={4}>
+                    <Col className="mb-3 pb-5" xs={12} sm={12} md={4} lg={4}>
                         <div className="photo">
                             <Image src={photo} fluid  />
                         </div>
                     </Col>
-                    <Col sm={8} md={8} lg={8}>
+                    <Col xs={12} sm={12} md={8} lg={8}>
                         <div className="title-block">
                             <h1>Juned Ahmed</h1>
                             <div className="owl-carousel text-rotation">
@@ -40,7 +42,7 @@ const My_Info = () => {
                 
             <div className="page-content">
                 <Row>
-                    <Col sm={6} md={6} lg={6}>
+                    <Col xs={12} sm={12} md={6} lg={6}>
                         <div className="about-me">
                             <div className="block-title">
                                 <h3>About <span>Me</span></h3>
@@ -55,12 +57,14 @@ const My_Info = () => {
                             </p>
                         </div>
                         <div className="download-resume">
-                            <a className="btn-band-outline" href="https://facebook.com/Zuned33" target="_blank" rel="noreferrer">Download Resume</a>
+                            <a className="btn-band-outline" href="https://facebook.com/Zuned33" target="_blank" rel="noreferrer"> 
+                                <FontAwesomeIcon icon={faDownload} /> Download Resume
+                            </a>
                         </div>
                     </Col>
 
 
-                    <Col sm={6} md={6} lg={6}>
+                    <Col xs={12} sm={12} md={6} lg={6}>
                         <div>
                             <ul className="info-list">
                                 <li>
