@@ -57,7 +57,7 @@ const My_Info = () => {
                             </p>
                         </div>
                         <div className="download-resume">
-                            <a className="btn-band-outline" href="https://facebook.com/Zuned33" target="_blank" rel="noreferrer"> 
+                            <a className="btn-band-outline" href="https://drive.google.com/uc?id=1XiVZxqO8q0NLgZZB59sXmZmNhN10z2a8&export=download" target="_blank" rel="noreferrer"> 
                                 <FontAwesomeIcon icon={faDownload} /> Download Resume
                             </a>
                         </div>

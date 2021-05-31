@@ -22,7 +22,7 @@ const NavbarArea = () => {
 
           <NavbarCollapse id="basic-navbar-nav" className="justify-content-end">
             <Nav>
-              <a className="btn-band" href="#link">Resume</a>
+              <a className="btn-band" href="https://drive.google.com/file/d/1XiVZxqO8q0NLgZZB59sXmZmNhN10z2a8/view">Resume</a>
             </Nav>
           </NavbarCollapse>
         </Container>
