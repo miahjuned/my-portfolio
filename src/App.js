@@ -12,10 +12,12 @@ import Blog from './Component/Home/Blog/Blog';
 import Work from './Component/Home/Work/Work';
 import Contract from './Component/Contract/Contract';
 import NoMatch from './Component/404/noMatch';
+import SmoothScroll from './Component/Home/SmoothScroll/SmoothScroll';
 
 function App() {
   return (
     <Router>
+      <SmoothScroll></SmoothScroll>
       <NavigastionBar/>
       <Switch>
         <Route exact path="/">

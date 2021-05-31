@@ -17,26 +17,42 @@ const Education = () => {
                         {/*  <!-- Education 1 --> */}
                         <div className="timeline-item">
                             <h4 className="item-title">BBA in Accounting</h4>
-                            <span className="item-period">2016-Running</span>
+                            <span className="item-period">Session 2016-17 - Running(Final Year)</span>
                             <span className="item-small">National University in Bangladesh</span>
-                            <p className="item-descripstion">Bachelor of Business Administration (BBA) in Accounting programs combine the fundamentals of a business program with concentrated coursework in accounting.</p>
+                            <p className="item-descripstion">Currently a Final Year Student (BBA) in Business Administration in Accounting Programs.
+                            <br />
+                                <span>
+                                   <strong className="activities"> Activities and Societies:</strong> • Power point presentation • Web development competition. • Cultural Club member. • Team Aaccounting member • BNCC representative. • Sports Club member. • Winner of Football mini Futsal Prize 2019 On Campus Round • Semi Finalist of Cricket Hult Prize 2019 On Campus Round • Winner of Basic Computer Competition On Campus Round 2020
+                                </span>
+                            </p>
                         </div>
 
                         {/* Education 2 */}
                         <div className="timeline-item">
-                            <h4 className="item-title">HSC</h4>
+                            <h4 className="item-title">Higher Secondary Certificate</h4>
                             <span className="item-period">2013-2015</span>
                             <span className="item-small">Moulvibazar govt college</span>
-                            <p className="item-descripstion">The Higher Secondary Certificate, also known as HSC or Intermediate or +2 examination, is a public examination taken by students of intermediate college in Bangladesh</p>
+                            <p className="item-descripstion">I have completed my Higher Secondary Certificate from Moulvibazar govt college being a Topper of my class.
+                            <br />
+                                <span>
+                                   <strong className="activities"> Activities and Societies:</strong> • Power point presentation • Web development competition. • Cultural Club member. • BNCC representative. • Sports Club member. 
+                                </span>
+                            </p>
                         </div>
 
 
                         {/* Education 3 */}
                         <div className="timeline-item">
-                            <h4 className="item-title">HSC</h4>
-                            <span className="item-period">2013-2015</span>
-                            <span className="item-small">Google LLC</span>
-                            <p className="item-descripstion">The Higher Secondary Certificate, also known as HSC or Intermediate or +2 examination, is a public examination taken by students of intermediate college in Bangladesh</p>
+                            <h4 className="item-title">Secondary School Certificate</h4>
+                            <span className="item-period">2003-2013</span>
+                            <span className="item-small">Dighal Bhak High School</span>
+                            <p className="item-descripstion">
+                                I have completed my Secondary School Certificate from Dighal Bhak High Schol being a Topper of my class.
+                                <br />
+                                <span>
+                                   <strong className="activities"> Activities and Societies:</strong> • Web development competition. • Cultural Club member. • BNCC representative. • Sports Club member.
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>

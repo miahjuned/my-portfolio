@@ -4,6 +4,7 @@ import './My_Info.css';
 import photo from '../../../Images/juned.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faGithubSquare, faFacebookSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const My_Info = () => {
     return (
         <section className="section-inner my-info">
@@ -19,21 +20,21 @@ const My_Info = () => {
                             <h1>Juned Ahmed</h1>
                             <div className="owl-carousel text-rotation">
                                 <div className="item">
-                                    <div className="sp-subtitle">Designer</div>
-                                </div>
-                                <div className="item">
-                                    <div className="sp-subtitle">Developer</div>
-                                </div>
-                                <div className="item">
-                                    <div className="sp-subtitle">Explorer</div>
+                                    <div className="sp-subtitle">Designer  |  Developer  |  Explorer</div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="social-links">
-                            <a href="https://facebook.com/Zuned33" target="_blank" rel="noreferrer"><i>Facebook</i> </a>
-                            <a href="https://facebook.com/Zuned33" target="_blank" rel="noreferrer"><i>Twitter</i></a>
-                            <a href="https://facebook.com/Zuned33" target="_blank" rel="noreferrer"><i>Github</i></a>
+                            <a href="https://facebook.com/Zuned33" target="_blank" rel="noreferrer">
+                                <i><FontAwesomeIcon icon={faFacebookSquare} /></i> 
+                            </a>
+                            <a href="https://linkedin/zunead" target="_blank" rel="noreferrer">
+                                <i><FontAwesomeIcon icon={faLinkedin} /></i>
+                            </a>
+                            <a href="https://github.com/zunead" target="_blank" rel="noreferrer">
+                                <i><FontAwesomeIcon icon={faGithubSquare} /></i>
+                            </a>
                         </div>
                     </Col>
                 </Row>
@@ -47,14 +48,11 @@ const My_Info = () => {
                             <div className="block-title">
                                 <h3>About <span>Me</span></h3>
                             </div>
-                            <p>Hello! I am Juned Ahmed. Completed my BBA from National university of Bangladesh. My major subject was Accounting.
-                                <br/>
-                                Now I am a full time freelancer. My focus is to work in global marketplace. Generally I am interested to work in WordPress projects of both Design & Development. I will be able to complete whole process of web Development. <br/> <br/>
-                                I am best in All kind of wordpress customization experience.
-                                <br/>
-                                Web developing is not only a job but also a passion for me and always be.
-                                Most importantly I can work hard & complete tasks within the time frame.
-                            </p>
+                            <article>I am Juned Ahmed. I'm a passionate Web developer. Whenever I got the scope, I used to play with coding Every of the time, I used to set myself to make a proper structure by coding. 
+                            </article>
+                            <article className="pt-2 pb-2">
+                                I enjoy developing applications using modern technologies. Proficient in HTML, CSS, JavaScript, Reactjs, Nodejs, Expressjs and MongoDB. Passionate about new technologies and problem solving.
+                            </article>
                         </div>
                         <div className="download-resume">
                             <a className="btn-band-outline" href="https://drive.google.com/uc?id=1XiVZxqO8q0NLgZZB59sXmZmNhN10z2a8&export=download" target="_blank" rel="noreferrer"> 
