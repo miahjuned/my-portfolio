@@ -12,11 +12,12 @@ const NavbarArea = () => {
 
           <NavbarCollapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className="navLink">
-              <Link to="/home">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/work">Work</Link>
-              <Link to="/blog">Blog</Link>
-              <Link to="/contract">Contract</Link>
+              <Link className="navItem" to="/home">Home</Link>
+              <Link className="navItem" to="/about">About</Link>
+              <Link className="navItem" to="/work">Work</Link>
+              <Link className="navItem" to="/blog">Blog</Link>
+              <Link className="navItem" to="/contract">Contract</Link>
+              <Link className="navItem" to="/deshboard">Deshboard</Link>
             </Nav>
           </NavbarCollapse>
 

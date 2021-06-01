@@ -13,6 +13,10 @@ import Work from './Component/Home/Work/Work';
 import Contract from './Component/Contract/Contract';
 import NoMatch from './Component/404/noMatch';
 import SmoothScroll from './Component/Home/SmoothScroll/SmoothScroll';
+import Deshboard from './Component/Home/Deshboard/Deshboard/Deshboard';
+import Sidebar_home from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/Sidebar_home';
+import SidebarBlog from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/SidebarBlog';
+import Sidebarproject from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/Sidebarproject';
 
 function App() {
   return (
@@ -36,12 +40,28 @@ function App() {
           <Work></Work>
         </Route>
 
+        <Route path="/sidebarhome">
+          <Sidebar_home></Sidebar_home>
+        </Route>
+
+        <Route path="/sidebarblog">
+          <SidebarBlog></SidebarBlog>
+        </Route>
+
+        <Route path="/sidebarproject">
+          <Sidebarproject></Sidebarproject>
+        </Route>
+
         <Route path="/about">
           <About/>
         </Route>
 
         <Route path="/contract">
           <Contract></Contract>
+        </Route>
+
+        <Route path="/deshboard">
+         <Deshboard></Deshboard>
         </Route>
 
         <Route path="*">
