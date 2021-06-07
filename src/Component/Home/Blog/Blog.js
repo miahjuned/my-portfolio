@@ -50,19 +50,22 @@ const Blog = () => {
     
     return (
         <div className="Work_Area mt-5 pt-5">
-            {/* <div className="center-under-line"></div> */}
             <Container className="">
                 <Row className="">
+
                     <Col xs={12} sm={6} md={6} lg={6} className="work_Row">
                         <h2><span className="small-text-band">I also write </span> my feelings</h2>
-                        {/* <h2><span className="small-text-band">Some of </span> my feelings</h2> */}
                     </Col>
+
                     <Col xs={12} sm={8} md={6} lg={6} className="work_Row pb-5">
                         <div className="text-center">
-                            <Link to="/blog" className="btn-band" >All Article</Link>
+                            <Link to="/blog" className="btn-band" >
+                                All Article
+                            </Link>
                             <div className="center-line" ></div>
                         </div>
                     </Col>
+
                 </Row>
                 <Row>
                     {
