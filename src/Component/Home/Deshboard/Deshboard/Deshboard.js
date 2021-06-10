@@ -5,7 +5,7 @@ import Sidebar from '../Sidebar/Sidebar';
 import './Deshboard.css';
 const Deshboard = () => {
     return (
-        <Container>
+        <div>
             <Row className="dashboard">
                 <Col md={3}>
                     <div  >
@@ -24,7 +24,7 @@ const Deshboard = () => {
                 </Col>
                 
             </Row>
-        </Container>
+        </div>
     );
 };
 
