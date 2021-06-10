@@ -7,6 +7,7 @@ const Home = () => {
     document.title = "Juned portfolio website";
     return (
         <div>
+            <NavigastionBar/>
             <Header></Header>
             <Work></Work>
             <Blog></Blog>

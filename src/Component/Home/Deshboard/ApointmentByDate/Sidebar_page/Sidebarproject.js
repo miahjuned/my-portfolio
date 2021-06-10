@@ -12,9 +12,11 @@ const sidebarproject = () => {
                         <Sidebar></Sidebar>
                     </div>
                 </Col>
+
                 <Col md={9}>
                     <Work></Work>
                 </Col>
+                
             </Row>
         </Container>
     );
