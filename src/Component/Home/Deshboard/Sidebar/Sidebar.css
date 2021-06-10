@@ -1,6 +1,6 @@
 .sidebar-container{
     height: 600px;
-    overflow: scroll;
+    /* overflow: scroll; */
     text-align: center;
 }
 .sidebar{

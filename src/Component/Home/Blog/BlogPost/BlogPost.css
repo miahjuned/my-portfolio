@@ -1,10 +1,10 @@
 
 .blogPost_Card{
-  transition: all .25s;
+  transition: 500ms;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
 }
 .blogPost_Card:hover{
-  transform:translateY(-5px);
+  transform: scale(.95);
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.3);
 }
 
