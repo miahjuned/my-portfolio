@@ -6,8 +6,8 @@ import {
   Route,
 } from "react-router-dom";
 import About from './Component/About/About/About';
-import NavigastionBar from './Component/Home/Navbar/NavigastionBar';
-import FooterBar from './Component/Home/Footer/Footer';
+// import NavigastionBar from './Component/Home/Navbar/NavigastionBar';
+// import FooterBar from './Component/Home/Footer/Footer';
 import Blog from './Component/Home/Blog/Blog';
 import Work from './Component/Home/Work/Work';
 import Contract from './Component/Contract/Contract';
@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
       <SmoothScroll></SmoothScroll>
-      <NavigastionBar/>
+      {/* <NavigastionBar/> */}
       <Switch>
         <Route exact path="/">
           <Home/>
@@ -69,7 +69,7 @@ function App() {
         </Route>
 
       </Switch>
-      <FooterBar/>
+      {/* <FooterBar/> */}
     </Router>
   );
 }
