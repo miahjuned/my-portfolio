@@ -6,17 +6,17 @@ import './Deshboard.css';
 const Deshboard = () => {
     return (
         <Row className="dashboard">
-            <Col md={3}>
+            <Col xs={12} sm={12} lg={4} md={2}>
                 <div  >
                     <Sidebar></Sidebar>
                 </div>
             </Col>
-            <Col md={5} >
+            <Col md={5} xs={12} sm={12} lg={4}>
                 <div className="" >
                     <h1>Caendar</h1>
                 </div>
             </Col>
-            <Col  md={4} >
+            <Col xs={12} sm={12} lg={4} md={5} >
                 <div className="" >
                     <ApointmentByDate></ApointmentByDate>
                 </div>

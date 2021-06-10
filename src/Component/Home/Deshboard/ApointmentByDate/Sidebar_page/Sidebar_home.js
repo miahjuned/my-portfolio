@@ -6,12 +6,12 @@ import Sidebar from '../../Sidebar/Sidebar';
 const Sidebar_home = () => {
     return (
         <Row>
-            <Col md={3}>
+            <Col xs={12} sm={12} lg={3} md={3}>
                 <div className="">
                     <Sidebar></Sidebar>
                 </div>
             </Col>
-            <Col md={9}>
+            <Col xs={12} sm={12} lg={9} md={9}>
                 <Home></Home>
             </Col>
         </Row>
