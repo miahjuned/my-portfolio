@@ -5,7 +5,9 @@ import './Work.css';
 import firstIMG from "../../../Images/3.jpg";
 import secoundImg from "../../../Images/Screenshot_3.jpg";
 import ThriredImg from "../../../Images/kaanFitnessss.jpg";
+import NavigastionBar from "../Navbar/NavigastionBar";
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 const All_work_Project = [
     {
         id: 1,
@@ -47,9 +49,9 @@ const All_work_Project = [
 const Work = () => {
     document.title ="Work project Area";
     return (
-        <div className="Work_Area pt-5">
-            {/* <div className="center-under-line"></div> */}
-            <Container className="">
+        <div >
+            <NavigastionBar></NavigastionBar>
+            <Container className="Work_Area pt-5">
                 <Row className="">
                     <Col xs={12} sm={6} md={6} lg={6} className="work_Row">
                         <h2><span className="small-text-band">Some of</span> my work</h2>
@@ -65,6 +67,8 @@ const Work = () => {
                     All_work_Project.map(project => <Workproject project={project} key={project.id}></Workproject>)
                 }
             </Container>
+
+            <Footer></Footer>
         </div>
     );
 };

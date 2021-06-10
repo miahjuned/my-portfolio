@@ -7,6 +7,7 @@ import ThriredImg from "../../../Images/kaanFitnessss.jpg";
 import BlogPost from "../Blog/BlogPost/BlogPost";
 import NavigastionBar from "../Navbar/NavigastionBar";
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 
 
@@ -75,6 +76,8 @@ const Blog = () => {
                     }
                 </Row>
             </Container>
+
+            <Footer></Footer>
         </div>
     );
 };
