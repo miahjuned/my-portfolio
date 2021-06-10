@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <div>
             <NavigastionBar/>
+            
             <Header></Header>
             <Work></Work>
             <Blog></Blog>
