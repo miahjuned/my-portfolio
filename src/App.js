@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import About from './Component/About/About/About';
-// import NavigastionBar from './Component/Home/Navbar/NavigastionBar';
+import NavigastionBar from './Component/Home/Navbar/NavigastionBar';
 // import FooterBar from './Component/Home/Footer/Footer';
 import Blog from './Component/Home/Blog/Blog';
 import Work from './Component/Home/Work/Work';
@@ -33,6 +33,7 @@ function App() {
         </Route>
 
         <Route path="/blog">
+          {/* <NavigastionBar/> */}
           <Blog></Blog>
         </Route>
 

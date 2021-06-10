@@ -5,6 +5,7 @@ import firstIMG from "../../../Images/3.jpg";
 import secoundImg from "../../../Images/Screenshot_3.jpg";
 import ThriredImg from "../../../Images/kaanFitnessss.jpg";
 import BlogPost from "../Blog/BlogPost/BlogPost";
+import NavigastionBar from "../Navbar/NavigastionBar";
 import { Link } from 'react-router-dom';
 
 
@@ -49,8 +50,9 @@ const Blog = () => {
     document.title = " Blog Post";
     
     return (
-        <div className="Work_Area mt-5 pt-5">
-            <Container className="">
+        <div >
+            <NavigastionBar/>
+            <Container className="Work_Area mt-5 pt-5">
                 <Row className="">
 
                     <Col xs={12} sm={6} md={6} lg={6} className="work_Row">

@@ -64,8 +64,6 @@ const Work = () => {
                 {
                     All_work_Project.map(project => <Workproject project={project} key={project.id}></Workproject>)
                 }
-{/*                 
-                <Workproject></Workproject> */}
             </Container>
         </div>
     );
