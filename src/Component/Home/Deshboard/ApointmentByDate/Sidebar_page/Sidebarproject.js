@@ -1,7 +1,8 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import Work from '../../../Work/Work';
+// import Work from '../../../Work/Work';
 import Sidebar from '../../Sidebar/Sidebar';
+import AddProject from './AddProject';
 
 const sidebarproject = () => {
     return (
@@ -13,7 +14,7 @@ const sidebarproject = () => {
             </Col>
 
             <Col md={9}>
-                <Work></Work>
+                <AddProject></AddProject>
             </Col>
             
         </Row>
