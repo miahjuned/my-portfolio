@@ -28,13 +28,16 @@ const AddProject = () => {
 
     const onSubmit = data => {
         const productData = {
-            name: data.product,
+            name: data.project,
             descrition: data.descrition,
             price: data.price,
             facilities1: data.one,
             facilitiesTwo: data.two,
             facilities2: data.facilities2,
             facilities3: data.three,
+            date: new Date(),
+            info: data.project,
+            info2: null,
             imageURL: projectImg
         };
         const url = `http://localhost:5000/addProject`;
@@ -89,15 +92,9 @@ const AddProject = () => {
             <form onSubmit={handleSubmit(onSubmit)}>
 
             <label >Services Name : </label>
-            <input name="product" placeholder="Services Name" />
-            <hr/>
-            <label >Services descrition : </label>
-            <input name="descrition" placeholder="Services descrition"  />
-            <hr/>
-
-            <hr/>
-
-                <input type="submit" />
+            {/* <input name="project" placeholder="Services Name" /> */}
+            <input name="project" type="text" />
+            <input type="submit" />
 
             </form>
         </Col>

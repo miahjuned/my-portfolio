@@ -3,6 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 // import Work from '../../../Work/Work';
 import Sidebar from '../../Sidebar/Sidebar';
 import AddProject from './AddProject';
+import ProjectAdd from './projectAdd';
 
 const sidebarproject = () => {
     return (
@@ -14,7 +15,8 @@ const sidebarproject = () => {
             </Col>
 
             <Col md={9}>
-                <AddProject></AddProject>
+                {/* <AddProject></AddProject> */}
+                <ProjectAdd></ProjectAdd>
             </Col>
             
         </Row>
