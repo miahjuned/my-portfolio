@@ -17,7 +17,7 @@ const NavbarArea = () => {
               <Link className="navItem" to="/work">Work</Link>
               <Link className="navItem" to="/blog">Blog</Link>
               <Link className="navItem" to="/contract">Contract</Link>
-              <Link className="navItem" to="/deshboard">Deshboard</Link>
+              {/* <Link className="navItem" to="/deshboard">Deshboard</Link> */}
             </Nav>
           </NavbarCollapse>
 
