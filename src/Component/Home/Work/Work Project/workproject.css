@@ -3,6 +3,7 @@
 }
 .project_image{
  height: 400px;
+ width: 100%;
     
 } 
 .project_image img{
@@ -18,38 +19,52 @@
     transform: scale(.95);
 } 
 
-ul li{
-    list-style: none;
-}
-/* .Info_Container{
-    height: 300px;
-    width: auto;
-    margin-left: -64px;
-} */
 
 .project_info{
     position: relative;
     background-color: #f1f7ff;
-    /* margin-left: -64px; */
-    margin-top: 10px;
     border-radius: 10px;
     transition: ease-in-out .25s;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 .project_info:hover{ 
-    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.3);
-    transform: translateX(-9px);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
 }
-@media (min-width: 450px){
-    .project_info{
-        margin-left: 4px !important;
-        margin-top: -30px;
-    } 
-}
-@media (min-width: 768px){
+
+
+@media only screen and (min-width: 900px){
     .project_info{
         margin-left: -64px !important;
-        margin-top: 20px;
+        margin-top: 30px;
     } 
+}
+
+
+.project_info h6{
+    color: #14A800;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+
+.project-btn {
+    margin-top: 5px;
+}
+.project-btn a{
+    padding: 0px 10px;
+}
+
+.project-btn .project-btn-icon{
+    color: green;
+    font-size: 25px;
+}
+.project-btn .project-btn-icon:hover{
+    color: #26ec0c;
 }

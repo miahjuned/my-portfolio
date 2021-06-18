@@ -61,11 +61,10 @@ const Blog = () => {
                     </Col>
 
                     <Col xs={12} sm={8} md={6} lg={6} className="work_Row pb-5">
-                        <div className="text-center">
+                        <div className="allWorkBtn">
                             <Link to="/blog" className="btn-band" >
                                 All Article
                             </Link>
-                            <div className="center-line" ></div>
                         </div>
                     </Col>
 

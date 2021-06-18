@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="footer_Area">
             <Container>
                 <Row className="pt-5 mt-5">
-                    <Col xs={7} sm={6} md={7} lg={7}>
+                    <Col xs={12} sm={12} md={7} lg={7}>
                         <div className="">
                             <h2 className="text-dark">Let's make something great together.</h2>
                             <a className="btn-band" href="https://github.com/zunead" target="_blank" rel="noopener noreferrer">Connect Me - LinkedIn</a>
 
                         </div>
                     </Col>
-                    <Col className="text-dark" xs={5} sm={6} md={5} lg={5}>
+                    <Col className="text-dark" xs={12} sm={12} md={5} lg={5}>
                         <div>
                             <h5 className="text-dark small-text-band">Contract Address</h5>
                             <h6>Skype: Juned133</h6>

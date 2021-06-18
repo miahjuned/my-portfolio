@@ -12,50 +12,51 @@ const Workproject = ({project}) => {
     return (
         <Row className="mt-4">
 
-            <Col className="project" xs={12} sm={6} md={6} lg={6}>
+            <Col className="project" xs={12} sm={12} md={7} lg={7}>
                 <div className="project_image">
                     <Image src={image} fluid />
                 </div>
             </Col>
 
-            <Col className="" xs={12} sm={6} md={6} lg={6}>
+            <Col className="" xs={12} sm={12} md={5} lg={5}>
                 <div className="Info_Container">
-
                     <div className="project_info px-4 py-2">
-                        <p className="small-text-band">{title}</p>
+                        <h6 >{title}</h6>
                         <ul>
                             <strong>Features:</strong>
                             <li>
-                                ❖ {Features1}
+                                {project.Features1 ? `❖ ${Features1}` : ''}
                             </li>
                             <li>
-                                ❖ {Features2}
+                                {project.Features2 ? `❖ ${Features2}` : ''}
                             </li>
                             <li>
-                                ❖ {Features3}
+                                {project.Features3 ? `❖ ${Features3}` : ''}
                             </li>
                             <li>
-                                ❖ {Features4}
+                                {project.Features4 ? `❖ ${Features4}` : ''}
                             </li>
                         </ul>
 
-                        <small className="topic"><strong>{topic}</strong></small>
-                        <small className="topic"><strong>{topic1}</strong></small>
-                        <small className="topic"><strong>{topic2}</strong></small>
-                        <small className="topic"><strong>{topic3}</strong></small>
+                        <div className="topic-container">
+                            <small className="topic"><strong>{topic}</strong></small>
+                            <small className="topic"><strong>{topic1}</strong></small>
+                            <small className="topic"><strong>{topic2}</strong></small>
+                            <small className="topic"><strong>{topic3}</strong></small>
+                        </div>
 
-                        <hr />
+                        {/* <hr /> */}
 
-                        <a href={github_link} className="small-text-band mr-3" target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon icon={faGithubSquare} />
-                        </a>
-
-                        <a href={project_link} className="small-text-band" target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon icon={faExternalLinkAlt} />
-                        </a>
+                        <div className="project-btn">
+                            <a href={github_link} className="small-text-band mr-3" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon className="project-btn-icon" icon={faGithubSquare} />
+                            </a>
+                            <a href={project_link} className="small-text-band" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon className="project-btn-icon" icon={faExternalLinkAlt} />
+                            </a>
+                        </div>
 
                     </div>
-                    
                 </div>
             </Col>
         </Row>

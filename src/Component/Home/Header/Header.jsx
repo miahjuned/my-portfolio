@@ -8,7 +8,7 @@ const Header = () => {
         <div className="Header_Area">
             <Container>
                 <Row className="Header_Row">
-                    <Col md={6} className="header_content">
+                    <Col xs={12} sm={12} md={6} lg={6} className="header_content">
                         <div className="">
                             <h1 className="text-band">Hello! This is Juned Ahmed</h1>
                             <p className="text-center">
@@ -19,7 +19,7 @@ const Header = () => {
                             <Link className="btn-band-outline" to="/contract" rel="noopener noreferrer">Get In Touch</Link>
                         </div>
                     </Col>
-                    <Col className="hero_img" md={6}>
+                    <Col className="hero_img" xs={12} sm={12} md={6} lg={6}>
                         <Image src={HeroImage} fluid  />
                     </Col>
                 </Row>
