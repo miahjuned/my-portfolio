@@ -2,7 +2,7 @@
     padding: 10px 5px;
 }
 .project_image{
- height: 300px;
+ height: 400px;
     
 } 
 .project_image img{
@@ -15,8 +15,12 @@
     transition: 500ms;
 } 
 .project_image img:hover{
-    transform: scale(.8);
+    transform: scale(.95);
 } 
+
+ul li{
+    list-style: none;
+}
 /* .Info_Container{
     height: 300px;
     width: auto;

@@ -3,24 +3,35 @@ import { Card, CardImg, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './BlogPost.css';
 const Workproject = ({blogPost}) => {
+
     const {title, descripstion, image, topic, topic1, topic2, topic3} = blogPost;
+
     return (
             <Col xs={12} sm={12} md={6} lg={4}>
                 <Link to="#" style={{textDecoration: "none"}}>
                     <Card className="mt-3 blogPost_Card">
+
                         <CardImg  variant="top" src={image} />
+                        
                         <Card.Body>
-                        <Card.Title className="small-text-band">{title}</Card.Title>
+
+                        <Card.Title className="small-text-band">
+                            {title}
+                        </Card.Title>
+
                         <Card.Text className="text-secondary">
                             {descripstion}
                         </Card.Text>
+
                         </Card.Body>
+
                         <Card.Footer className="footer">
                             <small className="text-muted topic" ><strong>{topic}</strong></small>
                             <small className="text-muted topic"><strong>{topic1}</strong></small>
                             <small className="text-muted topic"> <strong>{topic2}</strong></small>
                             <small className="text-muted topic"><strong>{topic3}</strong></small>
                         </Card.Footer>
+
                     </Card>
                 </Link>
             </Col>

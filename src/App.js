@@ -5,6 +5,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+
+import NavigastionBar from './Component/Home/Navbar/NavigastionBar';
 import About from './Component/About/About/About';
 import Blog from './Component/Home/Blog/Blog';
 import Work from './Component/Home/Work/Work';
@@ -15,10 +17,12 @@ import Deshboard from './Component/Home/Deshboard/Deshboard/Deshboard';
 import SidebarHome from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/Sidebar_home';
 import SidebarBlog from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/SidebarBlog';
 import Sidebarproject from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/Sidebarproject';
+import Footer from './Component/Home/Footer/Footer';
 
 function App() {
   return (
     <Router>
+      <NavigastionBar/>
       <SmoothScroll></SmoothScroll>
       <Switch>
         <Route exact path="/">
@@ -66,6 +70,7 @@ function App() {
         </Route>
 
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 }
