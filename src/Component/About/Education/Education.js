@@ -75,7 +75,6 @@ const Education = () => {
                         </div>
 
                         {/* Experience */}
-                        {/* <div className="timeline"> */}
                             {
                                 project.map(project => <div className="timeline" xs={12} sm={12} md={6} lg={4} project={project} key={project.id}>
 
@@ -101,30 +100,6 @@ const Education = () => {
                                     </div>
                                 </div>
                             )}
-                            {/* Experience 1 */}
-                            {/* <div className="timeline-item">
-                                <h4 className="item-title">Experience 1</h4>
-                                <span className="item-period">2015 - 2016</span>
-                                <span className="item-small">Google LLC</span>
-                                <p className="item-descripstion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magni!</p>
-                            </div> */}
-                            {/* Experience 2 */}
-                            {/* <div className="timeline-item">
-                                <h4 className="item-title">Experience 2</h4>
-                                <span className="item-period">2015 - 2016</span>
-                                <span className="item-small">Google LLC</span>
-                                <p className="item-descripstion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magni!</p>
-                            </div> */}
-                            {/* Experience 3 */}
-                            {/* <div className="timeline-item">
-                                <h4 className="item-title">Experience 3</h4>
-                                <span className="item-period">2015 - 2016</span>
-                                <span className="item-small">Google LLC</span>
-                                <p className="item-descripstion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magni!</p>
-                            </div> */}
-
-                            
-                        {/* </div> */}
                     </div>
 
                 </Col>
