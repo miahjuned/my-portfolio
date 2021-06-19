@@ -8,7 +8,7 @@ import { faGithubSquare, faFacebookSquare, faLinkedin } from '@fortawesome/free-
 const My_Info = () => {
     return (
         <section className="section-inner my-info">
-            <div className="page-header">
+            <div className="page-header container-fluid">
                 <Row>
                     <Col className="mb-3 pb-5" xs={12} sm={12} md={4} lg={4}>
                         <div className="photo">

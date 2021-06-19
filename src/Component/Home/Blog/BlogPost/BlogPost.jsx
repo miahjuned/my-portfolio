@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, CardImg, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './BlogPost.css';
 const Workproject = ({blogPost}) => {
 
     const {title, descripstion, image, topic, topic1, topic2, topic3} = blogPost;
@@ -9,7 +8,7 @@ const Workproject = ({blogPost}) => {
     return (
             <Col xs={12} sm={12} md={6} lg={4}>
                 <Link to="#" style={{textDecoration: "none"}}>
-                    <Card className="mt-3 blogPost_Card">
+                    <Card className="mt-3 Card-Post">
 
                         <CardImg  variant="top" src={image} />
                         
@@ -26,10 +25,12 @@ const Workproject = ({blogPost}) => {
                         </Card.Body>
 
                         <Card.Footer className="footer">
-                            <small className="text-muted topic" ><strong>{topic}</strong></small>
-                            <small className="text-muted topic"><strong>{topic1}</strong></small>
-                            <small className="text-muted topic"> <strong>{topic2}</strong></small>
-                            <small className="text-muted topic"><strong>{topic3}</strong></small>
+                            <div className="cardTopic">
+                                <small className="text-muted" ><strong>{topic}</strong></small>
+                                <small className="text-muted "><strong>{topic1}</strong></small>
+                                <small className="text-muted "> <strong>{topic2}</strong></small>
+                                <small className="text-muted "><strong>{topic3}</strong></small>
+                            </div>
                         </Card.Footer>
 
                     </Card>

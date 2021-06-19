@@ -1,9 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Blog.css';
-import firstIMG from "../../../Images/3.jpg";
-import secoundImg from "../../../Images/Screenshot_3.jpg";
-import ThriredImg from "../../../Images/kaanFitnessss.jpg";
 import BlogPost from "../Blog/BlogPost/BlogPost";
 import { Link } from 'react-router-dom';
 
@@ -15,7 +12,7 @@ const All_Blog_Project = [
         id: 1,
         title: "First test project",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
-        image: firstIMG,
+        image: "https://i.ibb.co/WtSnVFv/football-Team.jpg",
         topic: "React Router",
         topic1: "React  JS",
         topic2: "Mongo DB",
@@ -25,7 +22,7 @@ const All_Blog_Project = [
         id: 2,
         title: "secound test project",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
-        image: secoundImg,
+        image: "https://i.ibb.co/3rKyGCX/booking-flight.jpg",
         topic: "Express Js",
         topic1: "React  JS",
         topic2: "Mongo DB",
@@ -35,7 +32,7 @@ const All_Blog_Project = [
         id: 3,
         title: "Thrired test project",
         descripstion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur in est, delectus fugit minima maiores vitae qui accusantium, similique numquam ratione recusandae deleniti",
-        image: ThriredImg,
+        image: "https://i.ibb.co/Xk3Ttqc/fancy-slider.jpg",
         topic: "HTML5",
         topic1: "CSS",
         topic2: "JavaScript",
@@ -49,7 +46,7 @@ const Blog = () => {
     document.title = " Blog Post";
     
     return (
-        <div >
+        <div className="container-fluid">
             <Container className="Work_Area mt-5 pt-5">
                 <Row className="">
 

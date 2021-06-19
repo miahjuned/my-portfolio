@@ -138,7 +138,7 @@ const Skill = () => {
 
     return (
         <section >
-            <div className="skill-container">
+            <div className="skill-container container-fluid">
                 <Row  className="mt-4 mb-5 pb-5 pt-4">
 
 

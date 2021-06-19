@@ -3,14 +3,11 @@ import { Container } from 'react-bootstrap';
 import Education from '../Education/Education';
 import MyInfo from '../My_Info/My_Info';
 import Skill from '../Skill/Skill';
-import NavigastionBar from '../../Home/Navbar/NavigastionBar';
 import './About.css';
-import Footer from '../../Home/Footer/Footer';
 
 const About = () => {
     return (
-        <div>
-            <NavigastionBar></NavigastionBar>
+        <div className="container-fluid">
             <Container>
                 <section>
                     <div className="section-inner about-me">
@@ -23,7 +20,6 @@ const About = () => {
                 <Skill></Skill>
                 <Education></Education>
             </Container>
-            <Footer></Footer>
         </div>
     );
 };

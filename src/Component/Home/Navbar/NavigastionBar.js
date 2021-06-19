@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 const NavbarArea = () => {
     return (
-      <Navbar bg="light" variant="light" expand="lg" sticky="top">
+      <Navbar bg="light" variant="light" expand="lg" sticky="top" className="container-fluid">
         <Container>
           <NavbarBrand href="#home" ><span className="text-Navbar">Juned Ahmed</span></NavbarBrand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,7 +14,7 @@ const NavbarArea = () => {
             <Nav className="navLink">
               <Link className="navItem" to="/home">Home</Link>
               <Link className="navItem" to="/about">About</Link>
-              <Link className="navItem" to="/work">Work</Link>
+              <Link className="navItem" to="/work">Project</Link>
               <Link className="navItem" to="/blog">Blog</Link>
               <Link className="navItem" to="/contract">Contract</Link>
               {/* <Link className="navItem" to="/deshboard">Deshboard</Link> */}

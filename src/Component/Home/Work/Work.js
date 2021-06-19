@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import Workproject from './Work Project/Workproject';
 import './Work.css';
-import ProjectData from "../../../projectData.json";
+import ProjectData from "./projectData.json";
 import { Link } from 'react-router-dom';
 
 
@@ -17,8 +17,8 @@ const Work = () => {
 
 
     return (
-        <div className="work-conteiner" >
-            <Container className="Work_Area pt-5">
+        <div className="work-conteiner container-fluid" >
+            <div className="Work_Area pt-5">
                 <Row>
 
                     <Col xs={12} sm={12} md={6} lg={6} className="work_Row">
@@ -40,7 +40,7 @@ const Work = () => {
                 {
                    project.map(project => <Workproject project={project} key={project.id}></Workproject>)
                 }
-            </Container>
+            </div>
         </div>
     );
 };

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 
 }
-
+html{overflow-x: hidden;}
 body {
   font-family: 'Roboto', 'Roboto Slab', serif;
   overflow-x: hidden;
@@ -14,4 +14,36 @@ body {
 ::selection {
   background-color: #14a800;
   color: white;
+}
+
+
+/* project and blog card */
+
+
+.Card-Post{
+  transition: 500ms;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.Card-Post:hover{
+  transform: scale(.98);
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.cardTopic {
+  line-height: 30px;
+}
+.cardTopic small{
+  margin-right: 5px;
+}
+.cardTopic small strong{
+  padding: 5px 3px;
+  color: #14a800 !important;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-body-info{
+  height: 200px;
+  overflow: auto;
 }

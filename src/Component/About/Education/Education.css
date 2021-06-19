@@ -30,7 +30,7 @@
     margin-left: 20px;
     margin-bottom: 20px;
     background-color: #fff;
-    border-left: 2px solid #2196f3;
+    border-left: 2px solid #14a8;
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
 }
 
@@ -53,7 +53,7 @@
     height: 12px;
     top: 20px;
     left: -29px;
-    border: 2px solid #2196f3;
+    border: 2px solid #14a8;
     z-index: 2;
 }
 
@@ -61,7 +61,7 @@
     content: '';
     display: inline-block;
     position: absolute;
-    background-color: #2196f3;
+    background-color: #14a8;
     border-radius: 10px;
     width: 29px;
     height: 2px;
@@ -81,7 +81,7 @@
     display: inline-block;
     font-size: 12px; 
     line-height: 1.2em;
-    color: #2196f3;
+    color: #14a800;
     margin-bottom: 8px;   
 }
 
@@ -93,7 +93,7 @@
     margin-left: 5px;
     margin-bottom: 8px;
     padding-left: 8px;
-    border-left: 1px solid #e0e0e0;
+    border-left: 1px solid #14a8;
 }
 /* Timeline Close */
 

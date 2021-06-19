@@ -8,8 +8,7 @@ import {
 
 import NavigastionBar from './Component/Home/Navbar/NavigastionBar';
 import About from './Component/About/About/About';
-import Blog from './Component/Home/Blog/Blog';
-import Work from './Component/Home/Work/Work';
+import AllBlog from './Component/Blog/AllBlog';
 import Contract from './Component/Contract/Contract';
 import NoMatch from './Component/404/noMatch';
 import SmoothScroll from './Component/Home/SmoothScroll/SmoothScroll';
@@ -18,6 +17,7 @@ import SidebarHome from './Component/Home/Deshboard/ApointmentByDate/Sidebar_pag
 import SidebarBlog from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/SidebarBlog';
 import Sidebarproject from './Component/Home/Deshboard/ApointmentByDate/Sidebar_page/Sidebarproject';
 import Footer from './Component/Home/Footer/Footer';
+import Project from './Component/Project/Project';
 
 function App() {
   return (
@@ -34,11 +34,11 @@ function App() {
         </Route>
 
         <Route path="/blog">
-          <Blog></Blog>
+          <AllBlog></AllBlog>
         </Route>
 
         <Route path="/work">
-          <Work></Work>
+          <Project></Project>
         </Route>
 
         <Route path="/sidebarhome">
