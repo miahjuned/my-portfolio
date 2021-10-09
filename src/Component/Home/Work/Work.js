@@ -32,7 +32,6 @@ const Work = () => {
                             <Link to="/work" className="btn-band" rel="noreferrer"> 
                                 All Works
                             </Link>
-                            {/* <div className="center-line"></div> */}
                         </div>
                     </Col>
 

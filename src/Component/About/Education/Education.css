@@ -12,13 +12,22 @@
 
 
 /* Timeline Start */
-.block{
-    margin-bottom: 30px;
-}
 .block-title h3{
     font-size: 21px;
     margin: 5px 2 25px;
 }
+
+
+.block{
+    margin-bottom: 30px;
+    padding: 0 10px;
+    height: 850px;
+    overflow-y: hidden;
+}
+.block:hover{
+    overflow-y: auto;
+}
+
 
 .timeline{
     border-left: 2px solid #e0e0e0;
@@ -29,13 +38,15 @@
     padding: 15px 20px 10px;
     margin-left: 20px;
     margin-bottom: 20px;
+    transition: ease-in-out;
+    transition-duration: 300ms;
     background-color: #fff;
     border-left: 2px solid #14a8;
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
 }
 
 .timeline-item:hover{
-    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
 }
 
 .timeline-item:last-child{

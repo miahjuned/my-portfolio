@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "BBA in Accounting",
+        "descripstion": "Currently a Final Year Student (BBA) in Business Administration in Accounting Programs.",
+        "period": "Session 2016-17 - Running(Final Year)",
+        "institute": "National University in Bangladesh",
+        "activities": "• Power point presentation • Web development competition. • Cultural Club member. • Team Aaccounting member • BNCC representative. • Sports Club member. • Winner of Football mini Futsal Prize 2019 On Campus Round • Semi Finalist of Cricket Hult Prize 2019 On Campus Round • Winner of Basic Computer Competition On Campus Round 2020"
+    },
+
+    {
+        "id": 2,
+        "name": "Higher Secondary Certificate",
+        "descripstion": "I have completed my Higher Secondary Certificate from Moulvibazar govt college being a Topper of my class.",
+        "period": "2013-2015",
+        "institute": "Moulvibazar govt college",
+        "activities": "• Power point presentation • Web development competition. • Cultural Club member. • BNCC representative. • Sports Club member. "
+    },
+
+    {
+        "id": 3,
+        "name": "Secondary School Certificate",
+        "descripstion": " I have completed my Secondary School Certificate from Dighal Bhak High Schol being a Topper of my class.",
+        "period": "2003-2013",
+        "institute": "Dighal Bhak High School",
+        "activities": "• Web development competition. • Cultural Club member. • BNCC representative. • Sports Club member."
+    }
+]
